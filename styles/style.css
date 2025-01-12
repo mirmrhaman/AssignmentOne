@@ -115,4 +115,64 @@ footer {
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
+}
+.vision {
+    background-color: #F1F1F3;
+    text-align: left;
+}
+.vision h2 {
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 0%);
+}
+.vision-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.vision-card {
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-align: left;
+    width: 410px;
+}
+.vision-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.vision-card h3 {
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0%);
+}
+.vision-card p {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 0%);
+}
+.vision-card button {
+    padding: 10px 15px;
+    background-color: #8bc34a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.vision-card #btn-dTrans{
+    background-color: #5490F5;
+}
+.vision-card #btn-greEner{
+    background-color: #09A15C;
+}
+.vision-card #btn-moInfra{
+    background-color: #FFC239;
+}
+#dTrans{
+    background-color: #5490F533;
+}
+#greEner{
+    background-color: #c6e4d6;
+}
+#moInfra{
+    background-color: #f7ebcf;
 } 
