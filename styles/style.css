@@ -379,7 +379,6 @@ blockquote {
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
-
 .donation-card {
     height: 128px; 
     flex: 1 1 calc(250px + 15%);
@@ -428,4 +427,50 @@ blockquote {
 }
 .custom-donation .donate-btn:hover {
     background-color: #1b5e20;
+}
+.newsletter {
+    padding: 50px;
+    background-color: #C6E4D6;
+    text-align: center;
+    border-radius: 25px; 
+}
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+}
+.newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #0E0E0E;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+.newsletter-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+.newsletter-form input:focus {
+    border-color: #8bc34a;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(139, 195, 74, 0.5);
+}
+.subscribe-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.subscribe-btn:hover {
+    background-color: #33691e;
+    transform: scale(1.05);
 } 
